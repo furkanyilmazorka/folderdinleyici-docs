@@ -16,6 +16,7 @@ theme:
         icon: material/weather-night
         name: Switch to light mode
 markdown_extensions:
+  - attr_list
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

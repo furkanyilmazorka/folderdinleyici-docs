@@ -1,17 +1,41 @@
-# Welcome to MkDocs
+# Anasayfa
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Folderdinleyici nedir?
 
-## Commands
+Folderdinleyici belirlediğiniz klasörü dinleyip içeri koyulan dosyaları belirlediğniz SFTP sunucusuna gönderir.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Tek yönlü çalışan bir senkronizasyon programı gibi düşünülebilinir.
 
-## Project layout
+## Nasıl kullanılır?
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+
+``` json
+{
+  "Host": "192.168.1.200",
+  "Port": 22,
+  "Username": "tester",
+  "Password": "password",
+  "FolderPath": "C:\\Users\\furka\\OneDrive\\Masaüstü\\data",
+  "Suffix": "sent-"
+}
+```
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
+``` py title="bubble_sort.py"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
+[Projeye Git](https://github.com/furkanyilmazorka/version){ .md-button .md-button--primary }
