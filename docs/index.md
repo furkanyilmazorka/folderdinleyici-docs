@@ -3,7 +3,7 @@
 ## Folderdinleyici nedir?
 
 <figure markdown="span">
-  ![](https://files.catbox.moe/f0nbyp.avif){ width="600" loading=lazy }
+  ![](assets/images/program.avif){ width="600" loading=lazy }
   <figcaption>Programa ait ekran görüntüsü</figcaption>
 </figure>
 
@@ -14,7 +14,7 @@ Tek yönlü çalışan bir senkronizasyon programı gibi düşünülebilinir.
 ## Nasıl kullanılır?
 
 1. Exeyi indirin.     
-[İndirmek için tıklayınız.](https://github.com/furkanyilmazorka/version/releases/download/1.0.1.4/folderdinleyici.exe){.md-button}
+[İndirmek için tıklayınız :fontawesome-solid-download:](https://github.com/furkanyilmazorka/version/releases/download/1.0.1.4/folderdinleyici.exe){.md-button .md-button--primary}
 
 2. Çift tıklayarak çalıştırın. 
 Uygulamayı ilk kez çalıştırdığınızda bulunduğunuz dizine `config.json` isminde bir konfigürasyon dosyası oluşturulacaktır.

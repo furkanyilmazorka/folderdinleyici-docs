@@ -1,20 +1,19 @@
 site_name: Folderdinleyici
 theme:
+  favicon: assets/favicon.png
   language: tr
   name: material
   icon:
     logo: fontawesome/solid/radio
   palette:
     - scheme: slate
-      primary: blue
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - scheme: default
-      primary: blue
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
 markdown_extensions:
   - attr_list
   - pymdownx.superfences:
